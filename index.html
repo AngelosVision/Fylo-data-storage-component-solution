@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:wght@400;700&display=swap");
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="container-box">
+        <div class="Information-box">
+          <h1>
+            <img src="./images/logo.svg" alt="" class="Information-logo" />
+          </h1>
+          <div class="Information-btn-box">
+            <button class="Information-btn">
+              <img
+                src="./images/icon-document.svg"
+                alt=""
+                class="Information-btn-icon"
+              />
+            </button>
+            <button class="Information-btn">
+              <img
+                src="./images/icon-folder.svg"
+                alt=""
+                class="Information-btn-icon"
+              />
+            </button>
+            <button class="Information-btn">
+              <img
+                src="./images/icon-upload.svg"
+                alt=""
+                class="Information-btn-icon"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="storage-box">
+          <div class="message-box">
+            <div class="massage">
+              <p><span>185</span> GB Left</p>
+            </div>
+            <div class="triangle"></div>
+          </div>
+          <h2 class="progress-bar-title">
+            You’ve used <span> 815 GB </span> of your storage
+          </h2>
+          <div class="progress-container">
+            <div class="progress-bar-container">
+              <progress class="progress-bar" value="833" max="1000"></progress>
+              <div class="progress-circle"></div>
+              <!-- دایره سفید در انتهای نوار -->
+            </div>
+            <div class="progress-text">
+              <span>0 GB</span><span>1000 GB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
